@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "pnpm -r --filter './packages/*' build",
+    "start": "pnpm --filter pool-portal start",
     "test": "pnpm -r --filter './packages/*' test",
     "typecheck": "pnpm -r --filter './packages/*' typecheck",
     "clean": "pnpm -r exec rm -rf dist node_modules"
